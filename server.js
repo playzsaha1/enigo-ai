@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
+const API_KEY = "AIzaSyDvgb2GdskkoWwPxDw5mnbW5U1MAZW73bg";
 
 app.post("/chat", async (req, res) => {
     const userMessage = req.body.message;
